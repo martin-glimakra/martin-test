@@ -1,12 +1,13 @@
 {
-    "forsta_filmen": "episode 4",
-    "andra_filmen": "episode 5",
-    "tredje_filmen": "episode 6",
-    "fjarde_filmen": "episode 1",
-    "femte_filmen": "episode 2",
-    "sjatte_filmen": "episode 3",
-    "sjunde_filmen": "episode 7",
-    "attonde_filmen": "episode 8",
-    "nionde_filmen": "episode 9"
-
+    "arrayMedStarwarsfilmer": [
+        {"filmnr": 1, "episode": 4},
+        {"filmnr": 2, "episode": 5},
+        {"filmnr": 3, "episode": 6},
+        {"filmnr": 4, "episode": 1},
+        {"filmnr": 5, "episode": 2},
+        {"filmnr": 6, "episode": 3},
+        {"filmnr": 7, "episode": 7},
+        {"filmnr": 8, "episode": 8},
+        {"filmnr": 9, "episode": 9}
+    ]
 }

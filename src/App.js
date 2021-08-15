@@ -8,6 +8,7 @@ function App() {
   console.log('starwarsEpisodes', starwarsEpisodes)
 
 
+
   // console.log('data', data, typeof data)
 
   // let jsxArray = [
@@ -21,7 +22,9 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Martins testapp</h1>
+      <h1>Martins testapp</h1> 
+      <button onClick={() => alert('Episode ' + starwarsEpisodes.arrayMedStarwarsfilmer[0].episode)}>{'Film nummer: ' + starwarsEpisodes.arrayMedStarwarsfilmer[0].filmnr}</button>
+
       {jsxArrayFromMap}
     </div>
   );
