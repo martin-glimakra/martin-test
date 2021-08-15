@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import data from './testdata/data.json'
 
 function App() {
+
+
+  console.log('data', data, typeof data)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. Martin
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>{data.films[0]}</p>
+      <p>{data.films[1]}</p>
+      <p>{data.films[2]}</p>
+      <p>{data.films[3]}</p>
     </div>
   );
 }
