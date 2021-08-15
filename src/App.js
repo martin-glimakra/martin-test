@@ -1,4 +1,5 @@
 import './App.css';
+import Button from './components/Button';
 import DisplayMovieTitle from './components/DisplayMovieTitle';
 import data from './testdata/data.json'
 import starwarsEpisodes from './testdata/starwarsEpisodes.json'
@@ -23,10 +24,11 @@ function App() {
   return (
     <div className="App">
       <h1>Martins testapp</h1> 
-      <button onClick={() => alert('Episode ' + starwarsEpisodes.arrayMedStarwarsfilmer[0].episode)}>{'Film nummer: ' + starwarsEpisodes.arrayMedStarwarsfilmer[0].filmnr}</button>
+      <Button starwarsData={starwarsEpisodes.arrayMedStarwarsfilmer[0]} />
+      {/* <button onClick={() => alert('Film number: ' + starwarsEpisodes.arrayMedStarwarsfilmer[0].episode)}>{'Episode' + starwarsEpisodes.arrayMedStarwarsfilmer[0].filmnr}</button> */}
 
       {jsxArrayFromMap}
-    </div>
+    </div> 
   );
 }
 
