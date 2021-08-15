@@ -1,7 +1,7 @@
 export default function DisplayMovieTitle(props) {
     return (
         <p>
-            {props.title}
+           <a href={props.title}> {props.title} </a> 
         </p>
     )
 }
